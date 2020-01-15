@@ -38,7 +38,7 @@ session_destroy();
 <h1 style="text-align: center">Страница результатов</h1>
 <p><?=$result?></p>
 <div>
-    <form action="PHP_example.php" method="post">
+    <form action="index.php" method="post">
 
         <input type="submit" value="Пройти задание снова">
 
