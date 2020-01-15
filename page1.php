@@ -32,9 +32,9 @@ echo "</pre>";
 <p>Выберите животное, которое блеет, и очень "шерстяное".</p>
 <div>
     <form action="page2.php" method="post">
-        <input type="radio" name="animal2" value="хрюшка">Хрюшка<br>
-        <input type="radio" name="animal2" value="коняшка">Коняшка<br>
-        <input type="radio" name="animal2" value="овечка">Овечка<br><br>
+        <label><input type="radio" name="animal2" value="хрюшка">Хрюшка</label><br>
+        <label><input type="radio" name="animal2" value="коняшка">Коняшка</label><br>
+        <label><input type="radio" name="animal2" value="овечка">Овечка</label><br><br>
         <input type="submit" value="Отправить">
     </form>
     <p><?php

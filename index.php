@@ -19,9 +19,9 @@ echo "</pre>";
 <p>Выберите животное, которое хрюкает, и любит жевать жёлуди.</p>
 <div>
     <form action="page1.php" method="post">
-        <input type="radio" name="animal1" value="хрюшка">Хрюшка<br>
-        <input type="radio" name="animal1" value="коняшка">Коняшка<br>
-        <input type="radio" name="animal1" value="овечка">Овечка<br><br>
+        <label><input type="radio" name="animal1" value="хрюшка">Хрюшка</label><br>
+        <label><input type="radio" name="animal1" value="коняшка">Коняшка</label><br>
+        <label><input type="radio" name="animal1" value="овечка">Овечка</label><br><br>
         <input type="submit" name="submit" value="Отправить">
     </form>
     <p><?php
